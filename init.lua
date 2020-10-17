@@ -169,7 +169,7 @@ end,
 })
 
 core.register_chatcommand(".2c", {
-	description = core.gettext("flames text"),
+	description = core.gettext("flammable text"),
 	func = function(param)
 		if not canTalk() then
 			return false, "You need 'shout' in order to use this command"
