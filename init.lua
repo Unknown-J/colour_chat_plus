@@ -168,8 +168,8 @@ core.register_chatcommand("4c", {
 end,
 })
 
-core.register_chatcommand("2c", {
-	description = core.gettext("2 colours at once"),
+core.register_chatcommand(".2c", {
+	description = core.gettext("flames text"),
 	func = function(param)
 		if not canTalk() then
 			return false, "You need 'shout' in order to use this command"
@@ -217,7 +217,7 @@ end,
 })
 
 core.register_chatcommand("lc", {
-	description = core.gettext("many colours at once, long text"),
+	description = core.gettext("pink and red at once, only for long texts"),
 	func = function(param)
 		if not canTalk() then
 			return false, "You need 'shout' in order to use this command"
@@ -241,7 +241,7 @@ end,
 })
 
 core.register_chatcommand("sc", {
-	description = core.gettext("many colours at once, only for short texts "),
+	description = core.gettext("pink and red at once, only for short texts "),
 	func = function(param)
 		if not canTalk() then
 			return false, "You need 'shout' in order to use this command"
