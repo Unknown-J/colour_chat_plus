@@ -145,7 +145,7 @@ core.register_chatcommand("say", {
 })
 
 core.register_chatcommand("4c", {
-	description = core.gettext("4 colours at once"),
+	description = core.gettext("Half rainbow"),
 	func = function(param)
 		if not canTalk() then
 			return false, "You need 'shout' in order to use this command"
@@ -193,7 +193,7 @@ end,
 })
 
 core.register_chatcommand("4c", {
-	description = core.gettext("4 colours at once"),
+	description = core.gettext("Half rainbow"),
 	func = function(param)
 		if not canTalk() then
 			return false, "You need 'shout' in order to use this command"
